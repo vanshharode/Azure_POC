@@ -74,3 +74,4 @@ jobs:
           app-name: 'vanshpoc'
           slot-name: 'Production'
           startup-command: gunicorn Demo.wsgi --log-file -
+          images: webapppoc.azurecr.io/my-django-app:latest
